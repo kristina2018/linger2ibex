@@ -10,3 +10,5 @@ python3 linger2ibex.py ../path/to/linger/file.txt > ../path/to/output/file.js
 ```
 
 By default, this script outputs your stimuli into a self-paced reading (SPR) setup. You can modify this by passing in your desired experiment type as the second argument. The options are currently `DashedSentence` (for SPR) and `AcceptabilityJudgment`.
+
+I've only tested this on my own files. Let me know by filing an issue if it's not working for you!
