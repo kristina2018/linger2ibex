@@ -52,6 +52,7 @@ var items = [
      {{s: "This is a practice sentence to get you used to reading sentences like this."}}],
     ["practice", "DashedSentence", 
      {{s: "This is another practice sentence with a practice question following it."}},
+                 "Separator", {{normalMessage: "Get ready for the question..."}},
                  "Question", {{hasCorrect: false, randomOrder: false,
                               q: "How would you like to answer this question?",
                               as: ["Press 1 or click here for this answer.",
@@ -67,7 +68,8 @@ var items = [
 SPEC_TEMPLATE = """["{condition}", {item}]"""
 
 STIM_TEMPLATE = """
-[{spec}, "{stimtype}", {{s: "{sentence}"}}, {questions}]
+[{spec}, "{stimtype}", {{s: "{sentence}"}}, 
+"Separator", {{normalMessage: "Get ready for the question..."}}, {questions}]
 """ 
 
 QUESTION_TEMPLATE = """
