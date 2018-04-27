@@ -38,6 +38,7 @@ var defaults = [
     }}
 ];
 
+var completionMessage = "Thank you for your participation. The results were succesffully transmitted. Your participation code is FLYING MONKEYS ."
 var items = [
   ["sep", "Separator", {{ }}],
   ["setcounter", "__SetCounter__", {{ }}],
